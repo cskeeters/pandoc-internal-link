@@ -58,7 +58,7 @@ function getMark(elem)
 end
 
 function Link(elem)
-    print("Running for target "..elem.target)
+    logging.info("Running for target "..elem.target)
     if not isInternal(elem) then
       return elem
     end
