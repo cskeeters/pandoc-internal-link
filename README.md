@@ -3,8 +3,6 @@ This is a pandoc filter designed to be used with [Pandoc Typst PDF (`ptp`)](http
 # Example Usage
 
     ---
-    title: Print URL Test
-    author: Chad Skeeters
     filters:
       - pandoc-internal-link/0.1.0/internal-link.lua
     ---

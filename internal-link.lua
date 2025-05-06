@@ -2,8 +2,6 @@
 This is a pandoc filter that enables internal links in Typst.
 
     ---
-    title: Print URL Test
-    author: Chad Skeeters
     filters:
       - pandoc-internal-link/0.1.0/internal-link.lua
     ---
