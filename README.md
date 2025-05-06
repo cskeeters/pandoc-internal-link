@@ -14,8 +14,12 @@ This is a pandoc filter designed to be used with [Pandoc Typst PDF (`ptp`)](http
 ## No Section Numbering
 
 In Typst, cross references to headings only work when section numbering is
-enabled.  If the template doesn't enable section numbers, you can add this to
-the markdown, or the template you are using.
+enabled.
+
+    #set heading(numbering: "1.1 ")
+
+If the template doesn't enable section numbers, you can add this to
+the Markdown, or the template you are using.
 
     ```{=typst}
     #let blue-underline(it) = underline[
